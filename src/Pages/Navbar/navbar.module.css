@@ -1,0 +1,10 @@
+.navbg{
+    background-color: #2C3E50;
+}
+.wFit{
+    width: fit-content;
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show{
+    background-color: tomato;
+}

@@ -1,0 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    background-color: #1ABC9C;
+}

@@ -1,0 +1,27 @@
+.aboutbg{
+    background-color: #1ABC9C;
+}
+
+.staricon{
+position: relative;
+}
+.staricon::after{
+content:'';
+position: absolute;
+top: 50%;
+right: 50%;
+transform: translate(-30%,-50%);
+width: 80px;
+height: 4px;
+background-color: white;
+}
+.staricon::before{
+content:'';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(30%,-50%);
+width: 80px;
+height: 4px;
+background-color: white;
+}
